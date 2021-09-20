@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    th {text-align: left;}
+</style>
+
+<head>
+    <title>Booking Page</title>
+</head>
+
+<body>
+
+<form action="">
+  <table>
+    <tr>
+        <th colspan="2">Flying from</th>
+        <th colspan="2">To</th>
+    </tr>
+    
+    <tr>
+        <td colspan="2">
+            <select name="bfrom">
+                <option value="bthai">Thailand</option>
+                <option value="busa">USA</option>
+                <option value="bjapan">Japan</option>
+              </select>
+        </td>
+        <td colspan="2">
+            <select name="bfrom">
+                <option value="bthai">Thailand</option>
+                <option value="busa">USA</option>
+                <option value="bjapan">Japan</option>
+              </select>
+        </td>  
+    </tr>
+
+    <tr>
+        <th colspan="2">Departing</th>
+        <th colspan="2">Returning</th>
+    </tr>
+
+    <tr>
+        <th colspan="2"><input type="date" name="bdepart"></th>
+        <th colspan="2"><input type="date" name="breturn"></th>
+    </tr>
+
+    <tr>
+        <th>Adult</th>
+        <th>Child</th>
+        <th>Infant</th>
+        <th style="color: red;">Currency</th>
+    </tr>
+
+    <tr>
+        <th><input type="number" name="badult" min="0" size="6"></th>
+        <th><input type="number" name="bchild" min="0" size="6"></th>
+        <th><input type="number" name="binfant" min="0" size="6"></th>
+        <th><select name="bcurrency">
+            <option value="bthb">THB</option>
+            <option value="busd">USD</option>
+            <option value="bjpy">JPY</option>
+          </select></th>
+    </tr>
+
+    <tr>
+        <td><input type="submit" value="Search"></td>
+    </tr>    
+  </table>
+</form> 
+
+</body>
+</html>
